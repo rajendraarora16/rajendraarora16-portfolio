@@ -921,21 +921,20 @@ a.btn:hover {
   }
 }
 .ext-btn {
-  padding: 10px;
+  color: rgba(255, 255, 255, 0.8);
   font-family: 'Roboto', sans-serif;
   font-size: 13px;
   -webkit-font-smoothing: antialiased;
-  background: #026c7b;
   cursor: pointer;
   font-weight: 600;
-  -webkit-border-radius: 3px 3px 3px 3px;
-  border-radius: 3px 3px 3px 3px;
-  -webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
-  -moz-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
-  box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
 }
-.ext-btn:hover {
-  background: #007685;
+.chrome-icon-ext {
+  float: left;
+  font-size: 20px;
+}
+.chrome-text-ext {
+  float: right;
+  padding-top: 6px;
 }
 .long-url-input {
   padding: 10px;
